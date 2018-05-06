@@ -1,0 +1,178 @@
+/*
+This CSS file has been split into the major website sections as follows:
+  1. header
+  2. mission
+  3. featured tea
+  4. locations
+  5. footer
+  6. copyright
+*/
+
+/*
+Author: Tim Lindley
+Date: 5 May 2018
+*/
+
+
+/*Universal styles*/
+* {
+  font-family: helvetica;
+  /* font-size: 22px; */
+  color: seashell;
+  opacity: 0.9;
+  text-align: center;
+}
+
+/*body*/
+body {
+  margin: 0px;
+  background-color: black;
+}
+
+/* 1. header */
+header {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  height: 69px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  margin: 0px;
+  z-index: 10;
+  background-color: black;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav span {
+  padding: 10px;
+}
+
+/* 2. mission */
+.mission {
+  border: 1px solid pink;
+  position: relative;
+  top: 69px;
+  display: flex;
+  height: 700px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-image: url(../images/img-mission-background.jpg);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+}
+
+.mission h2, .mission h4 {
+  margin: 0px;
+  padding: 10px 0px;
+  background-color: black;
+}
+
+/* 3. featured-tea */
+.featured-tea {
+  border: 1px solid yellow;
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  top: 69px;
+  height: 700px;
+  width: 100%;
+  z-index: 5;
+}
+
+.featured-tea h2, .featured-tea h4 {
+  margin: 0px;
+  padding: 10px 0px;
+}
+
+.tea-types {
+  margin: 0 auto; /* centres the element inside the parent element when given a width */
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.tea-image {
+  width: 300px;
+  padding: 10px 10px 0px 10px;
+}
+
+/* 4. locations */
+.locations {
+  border: 1px solid blue;
+  position: relative;
+  top: 69px;
+  display: flex;
+  height: 500px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  background-image: url(../images/img-locations-background.jpg);
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+}
+
+.locations h2, .locations h4 {
+  margin: 0px;
+  padding: 15px 0px;
+}
+
+.all-locations {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+}
+
+.location {
+  width: 300px;
+  background-color: black;
+  opacity: 1;
+  margin: 0px 20px;
+}
+
+.location p {
+  padding: 10px 0px;
+}
+
+/* 5. footer */
+.footer {
+  position: relative;
+  top: 69px;
+  display: flex;
+  height: 200px;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  z-index: 5;
+}
+
+.locations h2, .locations h4 {
+  margin: 0px;
+  padding: 15px 0px;
+}
+
+/* 6. copyright */
+.copyright {
+  position: relative;
+  top: 69px;
+  display: flex;
+  text-align: left;
+  margin-left: 20px;
+}
