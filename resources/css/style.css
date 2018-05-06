@@ -123,7 +123,7 @@ nav span {
   background-image: url(../images/img-locations-background.jpg);
   background-size: auto;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top;
   z-index: 5;
 }
 
