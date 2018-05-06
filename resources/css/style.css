@@ -14,16 +14,15 @@ Date: 5 May 2018
 */
 
 
-/*Universal styles*/
+/* Universal styles */
 * {
   font-family: helvetica;
-  /* font-size: 22px; */
   color: seashell;
   opacity: 0.9;
   text-align: center;
 }
 
-/*body*/
+/* body */
 body {
   margin: 0px;
   background-color: black;
@@ -31,13 +30,13 @@ body {
 
 /* 1. header */
 header {
+  border-bottom: 1px solid seashell;
   position: fixed;
   display: flex;
   align-items: center;
   align-content: center;
   justify-content: space-between;
   height: 69px;
-  border-bottom: 1px solid seashell;
   width: 100%;
   margin: 0px;
   z-index: 10;
@@ -55,7 +54,7 @@ nav span {
 
 /* 2. mission */
 .mission {
-  border: 1px solid pink;
+  /* border: 1px solid pink; */
   position: relative;
   top: 69px;
   display: flex;
@@ -79,7 +78,7 @@ nav span {
 
 /* 3. featured-tea */
 .featured-tea {
-  border: 1px solid yellow;
+  /* border: 1px solid yellow; */
   position: relative;
   display: flex;
   flex-wrap: wrap;
@@ -112,7 +111,7 @@ nav span {
 
 /* 4. locations */
 .locations {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   position: relative;
   top: 69px;
   display: flex;
